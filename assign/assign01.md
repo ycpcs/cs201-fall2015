@@ -116,6 +116,8 @@ The first dimension of the array is the rows of the board, and the second dimens
 
 The **PLAYER\_X** and **PLAYER\_O** constants are defined with the values 1 and 2, respectively.  You should use these constants as apporpriate in the program.
 
+Make sure that your program's output matches the output shown above as closely as possible.  In particular, make sure that all prompts and messages are spelled correctly.
+
 ## Static methods
 
 These are the static methods you must implement.
