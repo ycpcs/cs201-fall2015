@@ -13,7 +13,7 @@ CS 201 - Fundamentals of Computer Science II
 Section(s) | Instructor | Email | Office hours
 ---------- | ---------- | ----- | ------------
 101, 102, 103 | Don Hake | [djhake2@ycp.edu](mailto:djhake2@ycp.edu) | TBA
-[David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | TBA
+104 | [David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | TBA
 
 Course Description
 ------------------
