@@ -40,7 +40,7 @@ There are very detailed comments for each method you will need to implement.  Yo
 The unit tests for **KlondikeController** are the most extensive and detailed tests, since they test the game logic.  Note that these tests use two saved game states.  You can view the image files `testgame.png` and `testgame2.png`, in the same directory as the test classes, to view these game states.
 
 <div class="callout">
-<b>Extremely important</b>: Do <i>not</i> change the names, visibility, return type, or parameter types of any of the methods in the classes you will be implementing.  I will use JUnit tests to test your implementation, and my tests will not work if you modify the API of these classes.  You are welcome to add additional methods: just don't change the existing ones.
+<b>Extremely important</b>: Do <i>not</i> change the name, visibility, return type, or parameter types of any of the methods in the classes you will be implementing.  I will use JUnit tests to test your implementation, and my tests will not work if you modify the API of these classes.  You are welcome to add additional methods: just don't change the existing ones.
 </div>
 
 ## Rules of the game
