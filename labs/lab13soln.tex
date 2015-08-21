@@ -1,0 +1,50 @@
+\documentclass{article}
+\usepackage{nopageno}
+
+\setlength{\parindent}{0in}
+\setlength{\parskip}{.2in}
+
+\begin{document}
+
+{\bf Problem 1}.  The loop executes $N^2$ iterations, and the body of the loop
+executes in constant time, so the overall running time is
+$O(N^2)$.
+
+{\bf Problem 2}. Each loop executes $N$ iterations, and because there are
+two identical loops, {\tt CODE} executes $2N$ times.  Because {\tt CODE}
+executes in constant time, and because 2 times a constant is still a
+constant, the overall running time is $O(N)$.
+
+{\bf Problem 3}. The outer loop executes $N$ iterations.  However, the
+inner loop is dependent on the outer loop, and each time it is reached,
+executes $0, 1, 2, 3, \ldots, N-1$ iterations.  The sum
+\[\sum_{i=0}^{N-1}{i} = 0 + 1 + 2 + \ldots + (N-1) = \frac{N}{2}(N-1)\]
+which (after dropping constant factors and low-order terms)
+is $O(N^2)$.
+
+{\bf Problem 4}.  The loop executes a constant number of iterations,
+and the body of the loop executes in constant time.  A constant times
+a constant is a constant, so the overall running time is $O(1)$.
+
+{\bf Problem 5}. The inner loop is dependent on the outer loop, and executes
+$i^2$ iterations each time it is reached, where $i$ is the value of the
+outer loop's loop variable.  So, the total number of times
+{\tt CODE} is executed is
+\[\sum_{i=0}^{(N-1)^2} = 0 + 1 + 4 + 9 + \ldots + (N-1)^2 = \frac{(N-1)^3}{2} + \frac{(N-1)^2}{3} + \frac{(N-1)}{6}\]
+which is $O(N^3)$.  (We will prove this series sum when we cover proof by induction.)
+
+{\bf Problem 6}. The loop variable $i$ starts at one and doubles on each loop iteration.
+The final value of $i$ is $2^k$, where $k$ is the number of times the body of the
+loop executes.  The loop terminates when $i\ge N$.  The smallest value of $k$
+such that $2^k \ge N$ is $k = \lceil{\log _{2}{N}}\rceil$.  So, the overall
+running time is $O(\log _{2}{N})$, which we can simplify as
+$O(\log N)$ because all log functions are equivalent in big-O terms,
+regardless of base.
+
+{\bf Problem 7}. The innermost loop executes $N$ iterations and the body executes
+in constant time, so the innermost loop is $O(N)$.  The middle loop executes
+$N$ times, and its body is $O(N)$, so the middle loop is $O(N^2)$.
+The outer loop executes $N$ times, and its body is $O(N^2)$, so the total
+running time is $O(N^3)$.
+
+\end{document}

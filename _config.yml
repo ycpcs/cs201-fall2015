@@ -1,0 +1,7 @@
+baseurl: "http://ycpcs.github.io/cs201-fall2015"
+markdown: rdiscount
+highlighter: pygments
+coursename: "CS 201"
+
+rdiscount:
+  extensions: [smart]
