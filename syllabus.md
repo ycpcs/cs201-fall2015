@@ -80,7 +80,7 @@ Your overall grade for the course will be determined as follows:
 
 -   Homework and programming assignments: 25%
 -   Exams (3 midterm exams and 1 comprehensive final exam): 60%
--   Quizzes and attendance/participation: 15%
+-   Quizzes, labs, and attendance/participation: 15%
 
 ### Course website
 
