@@ -6,8 +6,10 @@ title: Schedule
 This schedule is subject to change.  Any change will be announced in class and on the course web page.
 
 <div class="callout">
-<b>Extremely important</b>: We expect you to do the reading <i>before</i> you come to class!  Most class meetings will have a quiz on the day's topic, so you need to do the reading to be fully prepared.
+<b>Extremely important</b>: We expect you to do the reading <i>before</i> you come to class!  Most class meetings will begin with a quiz on the day's topic, so you need to do the reading in advance to be fully prepared.
 </div>
+
+&nbsp;
 
 Date | Topic, Readings
 ---- | ---------------
