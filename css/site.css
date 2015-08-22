@@ -43,6 +43,13 @@ $color5: #4c3957;
 	background: #76b9fc;
 }
 
+#subtitle {
+	font-size: 120%;
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 1.5em;
+}
+
 /* Minor tweak to get the CC image link to align nicely with the footer text */
 a.cc-img {
 	vertical-align: -2px;
@@ -79,16 +86,12 @@ h1, h2, h3 {
 	color: #414073;
 }
 
-h1:before {
-	content: "→";
-	margin-right: 12px;
-}
-
 h1 {
 	margin-top: 32px;
 	border-top: 2px solid #4c3957;
 	border-bottom: 2px solid #4c3957;
 	font-size: 180%;
+	text-align: center;
 }
 
 h2, h3 {

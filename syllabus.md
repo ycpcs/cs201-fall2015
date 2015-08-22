@@ -5,8 +5,9 @@ title: "Syllabus"
 
 *Preliminary syllabus, not official yet*
 
-CS 201 - Fundamentals of Computer Science II
-============================================
+# CS 201
+
+<div id="subtitle">Fundamentals of Computer Science II</div>
 
 **Fall 2015**
 

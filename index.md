@@ -5,6 +5,8 @@ title: Home page
 
 # CS 201, Fall 2015
 
+<div id="subtitle">Fundamentals of Computer Science II</div>
+
 Welcome to the website for CS 201, Fundamentals of Computer Science II, at York College.  All information about the course will be posted here.
 
 ## Links
