@@ -14,7 +14,7 @@ title: "Syllabus"
 Section(s) | Instructor | Email | Office hours
 ---------- | ---------- | ----- | ------------
 101, 102, 103 | Don Hake | [djhake2@ycp.edu](mailto:djhake2@ycp.edu) | TBA
-104 | [David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | TBA
+104 | [David Hovemeyer](http://faculty.ycp.edu/~dhovemey) | [dhovemey@ycp.edu](mailto:dhovemey@ycp.edu) | M 1-3, T/Th 8:30-9:30, W/F 11-12
 
 Course Description
 ------------------
