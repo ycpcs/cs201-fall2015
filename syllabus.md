@@ -99,7 +99,7 @@ You **must** make a legitimate attempt to complete every homework assignment. We
 
 Assignments and labs will be posted as zip files on the course web page, <http://ycpcs.github.io/cs201-fall2015>.
 
-Assignments will be submitted using the server <https://cs.ycp.edu/marmoset>. You will receive an email containing the username and password you should use for this server.
+Assignments and labs will be submitted using the server <https://cs.ycp.edu/marmoset>. You will receive an email containing the username and password you should use for this server.
 
 ### Academic Integrity
 
@@ -113,9 +113,20 @@ The following policy pertains to homework and graded (individual) programming as
 
 Quizzes and exams must be completed individually.
 
-Lab assignments are not graded---therefore, you may work with other students on them. However, we do expect you to complete and submit them. Failure to complete lab assignments may affect your attendance and participation grade.  You will need to show your completed labs to your instructor in order to receive credit for them.
+Lab assignments are graded for completion only, and you may work with other students on them. However, we do expect you to complete and submit them: see "Lab Policy" below.
 
 Any violation of the course's academic integrity policy will be referred to the Dean of Academic Affairs, and could have consequences ranging from a 0 on an assignment to dismissal from the college.
+
+### Lab Policy
+
+In order to receive credit for completing a lab, you need to get a sign-off from your instructor.  There are four options for this:
+
+1. For 110% of full credit: Get a sign-off in class on the day the lab is due.
+2. For 100% of full credit: Submit the completed lab to Marmoset by the end of the day the lab is due.
+3. For 90% of full credit: Get a sign-off in the class immediately following the one in which the lab is due.
+4. For 50% of full credit: Submit the completed lab to Marmoset before the first exam to occur after the class in which the lab is due.
+
+As you can see above, you can earn some bonus credit for completing the labs early.  We *strongly* recommend that you work on the labs before you come to class, so that when you come to class, you have either completed the lab or have made a good start on it.
 
 ### Late Assignments
 
