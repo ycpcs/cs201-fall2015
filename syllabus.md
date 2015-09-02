@@ -3,8 +3,6 @@ layout: default
 title: "Syllabus"
 ---
 
-*Preliminary syllabus, not official yet*
-
 # CS 201
 
 <div id="subtitle">Fundamentals of Computer Science II</div>
