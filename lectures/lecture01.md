@@ -123,7 +123,7 @@ Summary
 
 -   Java is *object-oriented*
 -   A class is a user-defined data type, like a struct type in C, but you can add *behavior* to it
--   A *method* is a function that belongs to a class and can perform operations on it
+-   A *method* is a function that belongs to a class and can perform operations on instances of the class (which are called "objects")
 -   "Primitive" Java is a subset of Java that is very similar to C
 -   Use **System.out.println** and **System.out.printf** to print output
 -   *String concatenation* creates a new string of characters by appending a value to an existing string
