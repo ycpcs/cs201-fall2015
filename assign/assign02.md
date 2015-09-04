@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 2: Circles and Rectangles"
 ---
 
-**Due**: Tuesday, June 2nd by 11:59 PM
+**Due**: Wednesday, September 23rd by 11:59 PM
 
 Getting Started
 ===============
