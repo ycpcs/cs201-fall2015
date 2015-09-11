@@ -301,11 +301,25 @@ while (true) {
 
 A **java.util.Scanner** is useful for reading tokens out of the file, where each token is delimited by whitespace:
 
->     String fileName = ...InputStream fileIn = new FileInputStream(fileName);Scanner scanner = new Scanner(fileIn);while (scanner.hasNext()) {    String token = scanner.next();    // do something with the token}
+{% highlight java %}
+String fileName = ...
+
+InputStream fileIn = new FileInputStream(fileName);
+Scanner scanner = new Scanner(fileIn);
+while (scanner.hasNext()) {
+    String token = scanner.next();
+    // do something with the token
+}
+{% endhighlight %}
 
 Scanner makes it easy to read primitive values out of a file.  For example, if your file consists of integer values (represented in decimal form), you can read them with the following code:
 
->     while (scanner.hasNextInt()) {    int value = scanner.nextInt();    // do something with the value}
+{% highlight java %}
+while (scanner.hasNextInt()) {
+    int value = scanner.nextInt();
+    // do something with the value
+}
+{% endhighlight %}
 
 Making sure a file is closed
 ----------------------------
@@ -314,6 +328,22 @@ It is good practice to make sure that a file is closed when you are done with it
 
 Fortunately, a try/finally construct allows us to specify a "cleanup" action for a block of code.  The **finally** block is guaranteed to execute, no matter what happens in the **try** try block.  Here is how to use a try/finally to ensure that a **FileInputStream** is closed, even if an exception occurs while reading from it:
 
->     String fileName = ...FileInputStream fileIn = null;try {    fileIn = new FileInputStream(fileName);    read data from the FileInputStream, possibly using a BufferedReader} finally {    try {        if (fileIn != null) {            fileIn.close();        }    } catch (IOException e) {        // Ignore    }}  
+{% highlight java %}
+String fileName = ...
+
+FileInputStream fileIn = null;
+try {
+    fileIn = new FileInputStream(fileName);
+    // read data from the FileInputStream, possibly using a BufferedReader
+} finally {
+    try {
+        if (fileIn != null) {
+            fileIn.close();
+        }
+    } catch (IOException e) {
+        // Ignore
+    }
+}
+{% endhighlight %}
 
 Note that the try/catch in the **finally** block is needed because the **close** method may throw an **IOException**.  However, there is very little point in trying to handle the exception: after all, we are calling the **close** method because we are done with the object and don't need it any more.  Therefore, we ignore the exception if it occurs.
