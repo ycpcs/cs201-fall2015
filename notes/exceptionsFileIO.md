@@ -3,13 +3,6 @@ layout: default
 title: "Exceptions and File I/O"
 ---
 
-Copyright (C) 2005-2008, [David H. Hovemeyer](http://faculty.ycp.edu/~dhovemey/)
-
-[![Creative Commons License](http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
- This work is licensed under a [Creative Commons Attribution-Noncommercial-Share Alike 3.0 United States License](http://creativecommons.org/licenses/by-nc-sa/3.0/us/).
-
-In this lecture we will review Java input and output, exception handling, and explore the *call stack* and its relationship to method calls and exception handling.
-
 Basic Input and Output
 ----------------------
 
