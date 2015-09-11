@@ -3,8 +3,7 @@ layout: default
 title: "Exceptions and File I/O"
 ---
 
-Basic Input and Output
-----------------------
+# Basic Input and Output
 
 Java provides a number of classes for input and output.  They are defined in the **java.io** package.
 
@@ -38,7 +37,7 @@ public class ReaderDemo {
 }
 {% endhighlight %}
 
-### StringTokenizer
+# StringTokenizer
 
 The **java.util.StringTokenizer** class is useful for breaking up a String into *tokens*.  Usually, the tokens are chunks of non-space characters---i.e., words---separated by space characters.  Here is an example:
 
@@ -63,8 +62,7 @@ This program will print the lines
 
     HelloCS201
 
-Exceptions
-----------
+# Exceptions
 
 An *exception* in Java is a special kind of object that represents an "exceptional" situation, where the current computation cannot proceed for some reason.  For example, many of the methods that perform input or output are defined to throw **IOException**.  An IOException might mean that the file you are reading from is corrupted.
 
@@ -76,7 +74,7 @@ In Java, exceptions must be dealt with in one of two ways.
 
 In general, adding a throws clause is the best approach to dealing with possible exceptions.  For example, if you look carefully at the definition of the ReaderDemo class above, you will note that its **main** method has been defined to throw **IOException**.  This is because BufferedReader's **readLine** method can throw IOException.
 
-### Handling exceptions
+## Handling exceptions
 
 However, sometimes you will want to handle an exception.  Let's say we wanted to rewrite ReaderDemo so that it actually handles any IOException that might be thrown.  We do so by adding a *try/catch* block:
 
@@ -120,11 +118,11 @@ try {
 
 Multiple catch blocks can be added to catch whatever types of exceptions are thrown by the code in the *try* block.
 
-### Finally
+## Finally
 
 Finally blocks may be used in addition to or in place of catch blocks (but in any case, the finally block must come *after* any catch blocks).  The code in a finally block is *always* executed following the execution of the *try* block, even if an exception is thrown from the try block.  Finally blocks are often used to run *cleanup* code.
 
-### The call stack
+## The call stack
 
 In order to understand what happens when an exception is thrown we first need to fully examine how method calls are handled when the program is executed.  Each call to a method creates a new *stack frame*; the stack frame holds the values of each local variable in the method, as well as the location in the code where the method was called from.
 
@@ -167,7 +165,7 @@ The colored boxes with rounded corners are stack frames.  The reason the call s
 
 Try tracing through the diagram to convince yourself that the arrows representing method calls and returns correctly represent the way the program will execute.  A method call creates a new stack frame and starts executing the called method within that stack frame.  A method return leaves the current stack frame and returns to the location just after the place where the method was called originally, within the context of the previous stack frame.
 
-### Exception Classes
+## Exception Classes
 
 In Java, an *exception* is an ordinary object that is *thrown* when an error prevents the program from continuing.  Exceptions are ordinary Java objects that are subclasses of the **java.lang.Throwable** class.  The following inheritance diagram shows how the various exception classes are organized:
 
@@ -179,7 +177,7 @@ In Java, an *exception* is an ordinary object that is *thrown* when an error pre
 
 **Exception**, and all of its subclasses (except **RuntimeException** and its subclasses) represent errors that are generally recoverable.  These exceptions are known as *checked exceptions* because in order for these exceptions to be thrown from a method, the method must declare them.  (We will see what that means shortly.)  One of the most common checked exceptions is **IOException**, which can occur when opening or closing a file, or reading or writing data using a stream, reader, or writer object.
 
-### How Exceptions Work
+## How Exceptions Work
 
 There are three general ways that an exception can be thrown in some block of code:
 
@@ -267,8 +265,7 @@ Here is the control flow diagram showing the execution of the revised program:
 
 When the exception is thrown out of the **add** method, it then thrown back to the **f** method.  However, **f** does not handle the exception either, and it is thrown out of **f** as well.  The **main** method does handle the exception.  Note that the exception caused some of the code in each method not to be executed (shown in gray).
 
-More Advanced I/O
------------------
+# More Advanced I/O
 
 Once you understand exceptions, you will have no trouble doing input and output in Java.
 
@@ -314,8 +311,7 @@ while (scanner.hasNextInt()) {
 }
 {% endhighlight %}
 
-Making sure a file is closed
-----------------------------
+## Making sure a file is closed
 
 It is good practice to make sure that a file is closed when you are done with it.  However, because of exceptions, this can be somewhat tricky to do.  The code that uses a **FileInputStream** may complete successfully, or it may be terminated by an exception, but in either case, we would like to make sure that the file is closed.
 
