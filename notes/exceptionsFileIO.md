@@ -23,17 +23,52 @@ The BufferedReader class is a particularly useful kind of Reader, because it all
 
 Here is a complete example using a BufferedReader to read each line of input from the **System.in** object (which is an InputStream), and then print them out to **System.out**:
 
->     package edu.ycp.cs201;import java.io.BufferedReader;import java.io.InputStreamReader;import java.io.IOException;public class ReaderDemo {    public static void main(String[] args) throws IOException {        BufferedReader reader = new BufferedReader(            new InputStreamReader(System.in));        while (true) {            String line = reader.readLine();            if (line == null) {                break;            }            System.out.println(line);        }    }}
+{% highlight java %}
+package edu.ycp.cs201;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class ReaderDemo {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(
+            new InputStreamReader(System.in));
+        while (true) {
+            String line = reader.readLine();
+            if (line == null) {
+                break;
+            }
+            System.out.println(line);
+        }
+    }
+}
+{% endhighlight %}
 
 ### StringTokenizer
 
 The **java.util.StringTokenizer** class is useful for breaking up a String into *tokens*.  Usually, the tokens are chunks of non-space characters---i.e., words---separated by space characters.  Here is an example:
 
->     package edu.ycp.cs201;import java.util.StringTokenizer;public class StringTokenizerDemo {    public static void main(String[] args) {        String s = "Hello CS 201";        StringTokenizer tokenizer = new StringTokenizer(s);        while (tokenizer.hasMoreTokens()) {            String token = tokenizer.nextToken();            System.out.println(token);        }    }}
+{% highlight java %}
+package edu.ycp.cs201;
+
+import java.util.StringTokenizer;
+
+public class StringTokenizerDemo {
+    public static void main(String[] args) {
+        String s = "Hello CS 201";
+        StringTokenizer tokenizer = new StringTokenizer(s);
+        while (tokenizer.hasMoreTokens()) {
+            String token = tokenizer.nextToken();
+            System.out.println(token);
+        }
+    }
+}
+{% endhighlight %}
 
 This program will print the lines
 
->     HelloCS201
+    HelloCS201
 
 Exceptions
 ----------
@@ -52,11 +87,43 @@ In general, adding a throws clause is the best approach to dealing with possible
 
 However, sometimes you will want to handle an exception.  Let's say we wanted to rewrite ReaderDemo so that it actually handles any IOException that might be thrown.  We do so by adding a *try/catch* block:
 
->     package edu.ycp.cs201;import java.io.BufferedReader;import java.io.InputStreamReader;import java.io.IOException;public class ReaderDemo {    public static void main(String[] args) {        BufferedReader reader = new BufferedReader(            new InputStreamReader(System.in));        try {            while (true) {                String line = reader.readLine();                    if (line == null) {                    break;                }                    System.out.println(line);            }        } catch (IOException e) {            System.err.println("Caught an IOException!");        }    }}
+{% highlight java %}
+package edu.ycp.cs201;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+
+public class ReaderDemo {
+    public static void main(String[] args) {
+        BufferedReader reader = new BufferedReader(
+            new InputStreamReader(System.in));
+        try {
+            while (true) {
+                String line = reader.readLine();
+                    if (line == null) {
+                        break;
+                }
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.err.println("Caught an IOException!");
+        }
+    }
+}
+{% endhighlight %}
 
 The general form of a try/catch block is this:
 
->     try {    code that can throw an exception} catch (ExceptionType e) {    code that handles ExceptionType} catch (AnotherExceptionType e) {    code that handles AnotherExceptionType}  
+{% highlight java %}
+try {
+    // code that can throw an exception
+} catch (ExceptionType e) {
+    // code that handles ExceptionType
+} catch (AnotherExceptionType e) {
+    // code that handles AnotherExceptionType
+}
+{% endhighlight %}
 
 Multiple catch blocks can be added to catch whatever types of exceptions are thrown by the code in the *try* block.
 
@@ -70,7 +137,30 @@ In order to understand what happens when an exception is thrown we first need to
 
 Here is a very simple Java program:
 
->     public class Example {    private int count = 0;    public static void main(String[] argv) {        Example ex = new Example();        ex.f();        System.out.println(ex.count);    }    public void f() {        add(2);        add(3);    }    public void add(int val) {        count += val;    }    public void mult(int val) {        count *= val;    }}
+{% highlight java %}
+public class Example {
+    private int count = 0;
+
+    public static void main(String[] argv) {
+        Example ex = new Example();
+        ex.f();
+        System.out.println(ex.count);
+    }
+
+    public void f() {
+        add(2);
+        add(3);
+    }
+
+    public void add(int val) {
+        count += val;
+    }
+
+    public void mult(int val) {
+        count *= val;
+    }
+}
+{% endhighlight %}
 
 We will represent each stack frame as a box showing the current values of each local variable.  Calls to other methods will be represented as arrows originating at the location of the call and pointing to the stack frame of the called method.
 
@@ -108,11 +198,25 @@ When an exception is thrown in some block of code in a method, there are two pos
 
 **Catching an exception** means that an **exception handler** catches the exception, and afterwards execution continues normally.  Exception handlers are defined using a try/catch construct:
 
->     try {    statements...} catch (ExceptionType e) {    code to handle ExceptionType}  
+{% highlight java %}
+try {
+    // statements...
+} catch (ExceptionType e) {
+    // code to handle ExceptionType
+}
+{% endhighlight %}
 
 If any statements in the **try** block throw an exception of type *ExceptionType* (for any of the reasons mentioned above), the code specified in the **catch** block is executed.  Note that a try/catch may have multiple catch blocks:
 
->     try {    statements...} catch (ExceptionType e) {    code to handle ExceptionType} catch (AnotherExceptionType e) {    code to handle AnotherExceptionType}  
+{% highlight java %}
+try {
+    // statements...
+} catch (ExceptionType e) {
+    // code to handle ExceptionType
+} catch (AnotherExceptionType e) {
+    // code to handle AnotherExceptionType
+}
+{% endhighlight %}
 
 When an execption is thrown in the **try** block, each **catch** block is tried in order.  The first catch block that handles the type of exception thrown, or a superclass of the exception type, is chosen to handle the exception.   If no catch block matches the exception type, then the exception is thrown out of the entire try/catch construct, and potentially out of the method containing the try/catch.
 
@@ -125,7 +229,36 @@ Throwing an exception out of method means causes the execution of the method to 
 
 Let's visualize this process using a concrete example, a slightly modified version of our original example program:
 
->     public class Example {    private int count = 0;    public static void main(String[] argv) {        try {            Example ex = new Example();            ex.f();            System.out.println(ex.count);        } catch (Exception e) {            System.out.println("Boom!");        }    }    public void f() throws Exception {        add(2);        add(3);    }    public void add(int val) throws Exception {        if (val == 2)            throw new Exception();        count += val;    }    public void mult(int val) {        count *= val;    }}
+{% highlight java %}
+public class Example {
+    private int count = 0;
+
+    public static void main(String[] argv) {
+        try {
+            Example ex = new Example();
+            ex.f();
+            System.out.println(ex.count);
+        } catch (Exception e) {
+            System.out.println("Boom!");
+        }
+    }
+
+    public void f() throws Exception {
+        add(2);
+        add(3);
+    }
+
+    public void add(int val) throws Exception {
+        if (val == 2)
+            throw new Exception();
+        count += val;
+    }
+
+    public void mult(int val) {
+        count *= val;
+    }
+}
+{% endhighlight %}
 
 Note the addition of the two **throws Exception** clauses on the **f** and **add** methods.  These are now required because both methods may throw an object of type *Exception*, which is one of the checked exception classes.  The following rule applies:
 
@@ -152,7 +285,19 @@ To read data from a file, you should create a **FileInputStream** object, passin
 
 A **BufferedReader** is useful for reading entire lines of text out of a file:
 
->     String fileName = ...InputStream fileIn = new FileInputStream(fileName);BufferedReader reader = new BufferedReader(new InputStreamReader(fileIn));while (true) {    String line = reader.readLine();    if (line == null) {        break; // end of file    }    // do something with the line}
+{% highlight java %}
+String fileName = ...
+
+InputStream fileIn = new FileInputStream(fileName);
+BufferedReader reader = new BufferedReader(new InputStreamReader(fileIn));
+while (true) {
+    String line = reader.readLine();
+    if (line == null) {
+        break; // end of file
+    }
+    // do something with the line
+}
+{% endhighlight %}
 
 A **java.util.Scanner** is useful for reading tokens out of the file, where each token is delimited by whitespace:
 
