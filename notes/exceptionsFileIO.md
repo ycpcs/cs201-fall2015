@@ -1,4 +1,7 @@
-restindex crumb: I/O, Exceptions format: html page-title: I/O, Exceptions, and the Call Stack encoding: utf-8 output-encoding: None /restindex
+---
+layout: default
+title: "Exceptions and File I/O"
+---
 
 Copyright (C) 2005-2008, [David H. Hovemeyer](http://faculty.ycp.edu/~dhovemey/)
 
