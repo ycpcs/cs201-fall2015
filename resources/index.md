@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CS 201: Resources"
+title: "Resources"
 ---
 
 This page has links to useful resources for the course.

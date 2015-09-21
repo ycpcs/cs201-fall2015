@@ -11,20 +11,21 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## Links
 
-<ul>
-  <li><a href="syllabus.html">Syllabus</a></li>
-  <li><a href="schedule.html">Schedule/Readings</a></li>
-  <li><a href="assign/index.html">Assignments</a></li>
-  <li><a href="labs/index.html">Labs</a></li>
-  <li><a href="resources/index.html">Resources</a></li>
-  <li><a href="https://cs.ycp.edu/marmoset">Marmoset (submission server)</a></li>
-  <li><a href="https://cs.ycp.edu/cloudcoder">CloudCoder (practice problems)</a></li>
-  <li><a href="practice/index.html">Practice Exams</a></li>
-  <li><a href="examples/index.html">Example code</a></li>
-  <li><a href="https://docs.oracle.com/javase/8/docs/api/">JDK 8 API documentation</a></li>
-</ul>
+* [Syllabus](syllabus.html)
+* [Schedule/Readings](schedule.html)
+* [Assignments](assign/index.html)
+* [Labs](labs/index.html)
+* [Resources](resources/index.html)
+* [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
+* [CloudCoder (practice problems)](https://cs.ycp.edu/cloudcoder)
+* [Practice Exams](practice/index.html)
+* [Example code](examples/index.html)
+* [JDK 8 API documentation](https://docs.oracle.com/javase/8/docs/api/)
+* [Tutoring](tutoring.html)
 
 ## News
 
+* **Sep 21** &mdash; [Tutoring](tutoring.html) starts this evening.  Drop-in tutoring hours are held Monday and Wednesday evenings, 6&ndash;8 PM, in KEC 123.
+* **Sep 21** &mdash; Reminder: [Assignment 2](assign/assign02.html) is due Wednesday, Sept 23rd by 11:59 PM.
 * **Sep 2** &mdash; [Assignment 1](assign/assign01.html) is due Friday, Sep 11th by 11:59 PM.
 * **Sep 2** &mdash; Welcome back!
