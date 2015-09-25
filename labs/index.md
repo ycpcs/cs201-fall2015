@@ -26,7 +26,7 @@ In order to receive credit for completing a lab, you need to get a sign-off from
 > Sep 18 | [Lab 6: GUIs](lab06.html) | [CS201\_Lab06.zip](CS201_Lab06.zip)
 > Sep 23 | [Lab 7: Inheritance and Polymorphism](lab07.html) | [CS201\_Lab07.zip](CS201_Lab07.zip)
 > Sep 25 | [Lab 8: Inheriting Fields and Methods](lab08.html) | [CS201\_Lab08.zip](CS201_Lab08.zip)
-> Sep 28 | [Lab 9: Comparable, Sorting](lab09.html) | [CS201\_Lab09.zip](CS201_Lab09.zip)
+> Sep 30 | [Lab 9: Comparable, Sorting](lab09.html) | [CS201\_Lab09.zip](CS201_Lab09.zip)
 > Oct 7 | [Lab 10: Using Generic Containers and Algorithms](lab10.html) | [CS201\_Lab10.zip](CS201_Lab10.zip)
 > Oct 9 | [Lab 11: Functors](lab11.html) | [CS201\_Lab11.zip](CS201_Lab11.zip)
 > Oct 14 | [Lab 12: Benchmarking ArrayList](lab12.html) | [CS201\_Lab12.zip](CS201_Lab12.zip)
