@@ -25,6 +25,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
+* **Sep 28** - The programming zipfile for the first practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Sep 25** &mdash; Exam 1 will take place in class on Friday, Oct 2nd.  It is open book, but closed notes.  A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **Sep 25** &mdash; [Assignment 3](assign/assign03.html) has two milestones, due Friday, Oct 2nd, and Tuesday, Oct 13th.
 * **Sep 21** &mdash; [Tutoring](tutoring.html) starts this evening.  Drop-in tutoring hours are held Monday and Wednesday evenings, 6&ndash;8 PM, in KEC 123.
