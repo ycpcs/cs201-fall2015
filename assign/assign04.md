@@ -5,7 +5,7 @@ title: "Assignment 4: Klondike"
 
 **Milestone 1** due Wednesday, Oct 28th by 11:59 PM
 
-**Milestone 2** due Friday, Nov 6th by 11:59 PM
+**Milestone 2** due Thursday, Nov 12th by 11:59 PM
 
 # Getting Started
 

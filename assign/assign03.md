@@ -5,7 +5,7 @@ title: "Assignment 3: Angry Gorillas!"
 
 **Milestone 1 due**: Friday, Oct 2nd by 11:59 PM
 
-**Milestone 2 due**: Tuesday, Oct 13th by 11:59 PM
+**Milestone 2 due**: Friday, Oct 16th by 11:59 PM
 
 Getting Started
 ===============
