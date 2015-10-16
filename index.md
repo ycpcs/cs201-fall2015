@@ -25,9 +25,10 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
-* **Oct 15** - A second practice exam has been posted on the [Practice Exams](practice/index.html) page.
-* **Oct 6** - The due date for Milestone 2 of [Assignment 3](assign/assign03.html) has been moved to Friday, Oct 16th.  The due date for Milestone 2 of [Assignment 4](assign/assign04.html) has been moved to Thursday, Nov 12th.
-* **Sep 28** - The programming zipfile for the first practice exam has been posted on the [Practice Exams](practice/index.html) page.
+* **Oct 16** &mdash; Exam 2 will take place in class on **Friday, Oct 23rd**.  It will be open book and closed notes.
+* **Oct 15** &mdash; A second practice exam has been posted on the [Practice Exams](practice/index.html) page.
+* **Oct 6** &mdash; The due date for Milestone 2 of [Assignment 3](assign/assign03.html) has been moved to Friday, Oct 16th.  The due date for Milestone 2 of [Assignment 4](assign/assign04.html) has been moved to Thursday, Nov 12th.
+* **Sep 28** &mdash; The programming zipfile for the first practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Sep 25** &mdash; Exam 1 will take place in class on Friday, Oct 2nd.  It is open book, but closed notes.  A practice exam is available on the [Practice Exams](practice/index.html) page.
 * **Sep 25** &mdash; [Assignment 3](assign/assign03.html) has two milestones, due Friday, Oct 2nd, and Tuesday, Oct 13th.
 * **Sep 21** &mdash; [Tutoring](tutoring.html) starts this evening.  Drop-in tutoring hours are held Monday and Wednesday evenings, 6&ndash;8 PM, in KEC 123.
