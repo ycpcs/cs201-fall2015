@@ -5,6 +5,9 @@ title: "Code Examples"
 
 This page has code examples discussed in class.
 
+All of these are Eclipse projects (import them using **File &rarr; Import &rarr;
+General &rarr; Existing projects into workspace &rarr; Archive file**).
+
 Date | File | Description
 ---- | ---- | -----------
 9/4 | [Point.zip](Point.zip) | Point class and JUnit tests
