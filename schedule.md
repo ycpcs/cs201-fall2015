@@ -39,8 +39,8 @@ Nov 18 | [Lecture 21: Proof by Induction](lectures/lecture21.html), 7.2
 Nov 20 | [Lecture 22: Memoization and Dynamic Programming](lectures/lecture22.html), 7.6
 Nov 25 | Thanksgiving vacation, no class
 Nov 27 | Thanksgiving vacation, no class
-Dec 2 | **Exam 3**
-Dec 4 | [Lecture 23: Insertion and Shell Sorts](lectures/lecture23.html), 8.1-8.3
+Dec 2 | [Lecture 23: Insertion and Shell Sorts](lectures/lecture23.html), 8.1-8.3
+Dec 4 | **Exam 3**
 Dec 9 | [Lecture 24: Merge and Quick Sort](lectures/lecture24.html), 8.5-8.6
 Dec 11 | [Lecture 25: Singly and Doubly-Linked Lists](lectures/lecture25.html), 17.1-17.3
 

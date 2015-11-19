@@ -25,6 +25,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
+* **Nov 19** &mdash; The [Schedule](schedule.html) has been updated: Exam 3 will now take place on **Friday, December 4th**.  A practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Oct 29** &mdash; Solutions to Questions 8 and 9 from Exam 2 are posted on the [Example code](examples/index.html) page.
 * **Oct 16** &mdash; Exam 2 will take place in class on **Friday, Oct 23rd**.  It will be open book and closed notes.
 * **Oct 15** &mdash; A second practice exam has been posted on the [Practice Exams](practice/index.html) page.
