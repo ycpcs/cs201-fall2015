@@ -18,6 +18,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 * [Resources](resources/index.html)
 * [Marmoset (submission server)](https://cs.ycp.edu/marmoset)
 * [CloudCoder (practice problems)](https://cs.ycp.edu/cloudcoder)
+* [CodingBat Java recursion problems](http://codingbat.com/java/Recursion-1)
 * [Practice Exams](practice/index.html)
 * [Example code](examples/index.html)
 * [JDK 8 API documentation](https://docs.oracle.com/javase/8/docs/api/)
@@ -25,6 +26,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
+* **Nov 30** &mdash; Several recursion problems have been posted to [CloudCoder](https://cs.ycp.edu/cloudcoder).  Also, a link to [CodingBat Java recursion problems](http://codingbat.com/java/Recursion-1) has been posted.  These problems will help you practice for Exam 3, which takes place on Friday, Dec 4th.
 * **Nov 19** &mdash; The [Schedule](schedule.html) has been updated: Exam 3 will now take place on **Friday, December 4th**.  A practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Oct 29** &mdash; Solutions to Questions 8 and 9 from Exam 2 are posted on the [Example code](examples/index.html) page.
 * **Oct 16** &mdash; Exam 2 will take place in class on **Friday, Oct 23rd**.  It will be open book and closed notes.
