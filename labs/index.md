@@ -40,7 +40,7 @@ In order to receive credit for completing a lab, you need to get a sign-off from
 > Nov 13 | [Lab 20: Recursion](lab20.html) | [CS201\_Lab20.zip](CS201_Lab20.zip)
 > Nov 18 | [Lab 21: Proof By Induction](lab21.html) | n/a
 > Nov 20 | [Lab 22: Binomial Coefficient](lab22.html) | [CS201\_Lab22.zip](CS201_Lab22.zip)
-> Dec 4 | [Lab 24: Shell Sort](lab24.html) | [CS201\_Lab24.zip](CS201_Lab24.zip)
+> Dec 2 | [Lab 24: Shell Sort](lab24.html) | [CS201\_Lab24.zip](CS201_Lab24.zip)
 > Dec 11 | [Lab 25: Singly-linked lists](lab25.html) | [CS201\_Lab25.zip](CS201_Lab25.zip)
 
 <!--
