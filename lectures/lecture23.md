@@ -89,7 +89,7 @@ Note that we have not specified how the initial gap is chosen, and we have not s
 
 The initial gap should be large, so that elements can move relatively far in the array. Dividing the number of array elements by 2 yields a good initial gap size.
 
-To change the gap, the gap should be divided by a constant, so that the gap decreases exponentially. Experiements have shown that dividing by 2.2 yields good results. Note that the final gap size must be 1: that way, Shell Sort ends by doing a normal insertion sort. However, because the array will be almost sorted, this will be fast.
+To change the gap, the gap should be divided by a constant, so that the gap decreases exponentially. Experiments have shown that dividing by 2.2 yields good results. Note that the final gap size must be 1: that way, Shell Sort ends by doing a normal insertion sort. However, because the array will be almost sorted, this will be fast.
 
 Analysis
 --------
