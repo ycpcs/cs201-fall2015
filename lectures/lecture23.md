@@ -94,4 +94,4 @@ To change the gap, the gap should be divided by a constant, so that the gap decr
 Analysis
 --------
 
-The performance of Shell Sort depends on the sequence of gap values used. A bound of O(N log<sup>2</sup> N) can be achieved with a careful chosen gap sequence. This is not optimal, but is still much better than the O(N<sup>2</sup>) bound for Insertion Sort.
+The performance of Shell Sort depends on the sequence of gap values used. A bound of O(N log<sup>2</sup> N) can be achieved with a carefully chosen gap sequence. This is not optimal, but is still much better than the O(N<sup>2</sup>) bound for Insertion Sort.
