@@ -22,7 +22,7 @@ In the **Sort** class you will find an method called **insertionSortWork**:
 public static<E extends Comparable<E>> void insertionSortWork(E[] arr, int startIndex, int gap) {
 {% endhighlight %}
 
-This method implements an insertion sort starting at the element with index **startIndex** and skipping over every **gap** elements. For example, the call
+This method implements an insertion sort starting at the element with index **startIndex** and skipping over every **gap** number of elements. For example, the call
 
 {% highlight java %}
 insertionSortWork(arr, 1, 3);
