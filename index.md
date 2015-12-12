@@ -26,6 +26,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
+* **Dec 12** &mdash; A practice final exam is available on the [Practice Exams](practice/index.html) page.
 * **Nov 30** &mdash; Several recursion problems have been posted to [CloudCoder](https://cs.ycp.edu/cloudcoder).  Also, a link to [CodingBat Java recursion problems](http://codingbat.com/java/Recursion-1) has been posted.  These problems will help you practice for Exam 3, which takes place on Friday, Dec 4th.
 * **Nov 19** &mdash; The [Schedule](schedule.html) has been updated: Exam 3 will now take place on **Friday, December 4th**.  A practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Oct 29** &mdash; Solutions to Questions 8 and 9 from Exam 2 are posted on the [Example code](examples/index.html) page.
