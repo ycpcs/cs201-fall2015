@@ -18,3 +18,5 @@ This page has links to practice exams.
 
 * In addition to the questions on this third practice exam, you should also try questions 3&ndash;6 from the second practice exam
 * [Solution (written problems)](cs201-summer2015-exam03-solution.pdf), [Solution (programming problems)](CS201_Exam03_Solution.zip)
+
+[Final Exam, Summer 2015](cs201-summer2015-final.pdf), [CS201\_Final.zip](CS201_Final.zip) (programming zipfile)
